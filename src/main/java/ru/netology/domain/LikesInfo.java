@@ -4,7 +4,7 @@ import lombok.Data;
 
 /**
  * @author me
- * @version 1
+ * @version 2
  * <p>
  * This object describes likes of a post on the user or community wall.
  */

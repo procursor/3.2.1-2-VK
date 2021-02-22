@@ -4,7 +4,7 @@ import lombok.Data;
 
 /**
  * @author me
- * @version 1
+ * @version 2
  * <p>
  * This object describes comments to a post on the user or community wall.
  */
@@ -12,4 +12,8 @@ import lombok.Data;
 public class CommentsInfo {
 
     private long counter;
+
+    private boolean canPost;
+    private boolean canOpen;
+    private boolean canClose;
 }
