@@ -6,7 +6,7 @@ import lombok.Data;
 
 /**
  * @author me
- * @version 2
+ * @version 2.01
  * <p>
  * This object describes a post on the user or community wall. It contains the following fields:
  */
@@ -25,8 +25,6 @@ public class WallPost {
     private boolean isBookmarked;
     private boolean isMarkedAsAd;
 
-    private boolean canLike;
-    private boolean canShare;
     private boolean canPin;
     private boolean canEdit;
 
